@@ -42,6 +42,29 @@ img{
   margin-bottom: 1rem;
   box-shadow: rgb(0,0,0,0.2);
 }
+.download-section{
+  text-align: center;
+  padding: 30px 0;
+  background-color: #f9f9f9;
+  border-top: #e0e0e0;
+}
+.logo {
+max-width: 150px;
+margin-bottom: 15px;
+}
+.download-btn {
+  display: inline-block;
+  background-color: chartreuse;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.download-btn:hover{
+  background-color: rgb(161, 255, 68);
+}
 footer{
   background-color: #333;
   color: #ffffff;
